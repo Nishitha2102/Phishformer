@@ -1,0 +1,19 @@
+# Flask Backend Requirements for Python 3.13
+# Install with: pip install -r requirements.txt
+
+# Core dependencies
+flask>=3.0.0
+flask-cors>=4.0.0
+tensorflow>=2.16.1
+numpy>=1.26.0
+joblib>=1.3.2
+scikit-learn>=1.4.0
+tldextract>=5.1.1
+
+# Build tools (required for Python 3.13)
+setuptools>=69.0.0
+wheel>=0.42.0
+
+# Optional but recommended
+gunicorn>=21.2.0
+python-dotenv>=1.0.0

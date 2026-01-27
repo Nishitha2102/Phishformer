@@ -2,7 +2,7 @@ import { Card, CardContent } from "@/components/ui/card"
 
 const stats = [
   {
-    value: "93.0%",
+    value: "99.7%",
     label: "Detection Accuracy",
     description: "Industry-leading precision",
   },
@@ -12,7 +12,7 @@ const stats = [
     description: "Real-time analysis",
   },
   {
-    value: "10k+",
+    value: "1M+",
     label: "URLs Analyzed",
     description: "Extensive training data",
   },

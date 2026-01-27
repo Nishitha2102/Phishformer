@@ -4,15 +4,15 @@ import { Shield, Zap, Brain, Target, Globe, BarChart3 } from "lucide-react"
 const features = [
   {
     icon: Brain,
-    title: "Attention-Based Deep Fusion",
+    title: "Transformer Models",
     description:
-      "Advanced dual-stream neural architecture with cross-attention mechanisms analyzes URL and HTML features simultaneously with state-of-the-art accuracy.",
+      "Advanced RoBERTa and CharBERT models analyze URL semantics and webpage content with state-of-the-art accuracy.",
   },
   {
     icon: Zap,
     title: "Real-time Detection",
     description:
-      "Get instant results with our optimized deep learning API designed for real-time deployment in cybersecurity systems.",
+      "Get instant results with our optimized API designed for real-time deployment in cybersecurity systems.",
   },
   {
     icon: Target,

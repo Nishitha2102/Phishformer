@@ -37,7 +37,8 @@ export function HeroSection() {
               Phishing Detection
             </h2>
             <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto text-balance">
-              Protect yourself from cybercrime with our cutting-edge attention-based deep fusion model. PhishFormer uses dual-stream neural networks with cross-feature attention to detect phishing websites with unprecedented accuracy.
+              Protect yourself from cybercrime with our cutting-edge transformer models. PhishFormer uses RoBERTa and
+              CharBERT to detect phishing websites with unprecedented accuracy.
             </p>
           </div>
 
@@ -51,6 +52,25 @@ export function HeroSection() {
               <Zap className="w-5 h-5 mr-2" />
               Detect Phishing Now
             </Button>
+          </div>
+
+          {/* Trust indicators */}
+          <div className="pt-12">
+            <p className="text-sm text-muted-foreground mb-6">TRUSTED BY CYBERSECURITY PROFESSIONALS</p>
+            <div className="flex flex-wrap justify-center items-center gap-8 opacity-60">
+              <div className="flex items-center space-x-2">
+                <Brain className="w-5 h-5" />
+                <span className="text-sm font-medium">RoBERTa Model</span>
+              </div>
+              <div className="flex items-center space-x-2">
+                <Lock className="w-5 h-5" />
+                <span className="text-sm font-medium">CharBERT Analysis</span>
+              </div>
+              <div className="flex items-center space-x-2">
+                <Shield className="w-5 h-5" />
+                <span className="text-sm font-medium">Real-time Detection</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>

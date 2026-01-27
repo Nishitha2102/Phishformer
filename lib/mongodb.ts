@@ -14,16 +14,9 @@ declare global {
 }
 
 if (!global._mongoClientPromise) {
-  client = new MongoClient(uri, {
-    serverSelectionTimeoutMS: 5000,
-    socketTimeoutMS: 45000,
-  })
-  global._mongoClientPromise = client.connect().catch((err) => {
-    console.error('MongoDB connection error:', err)
-    throw err
-  })
+  client = new MongoClient(uri)
+  global._mongoClientPromise = client.connect()
 }
-
 clientPromise = global._mongoClientPromise!
 
 export async function getDb() {
