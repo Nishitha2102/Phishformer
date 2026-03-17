@@ -1,0 +1,34 @@
+.popup {
+  width: 200px;
+  height: 400px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  font-family: Arial, sans-serif;
+}
+
+.popup h1 {
+  font-size: 18px;
+  color: #333;
+}
+
+.popup p {
+  font-size: 14px;
+  color: #666;
+}
+
+.popup button {
+  width: 100%;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.popup button:hover {
+  background-color: #0056b3;
+}
